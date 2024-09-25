@@ -1,10 +1,10 @@
 import numpy as np
 
-data=np.array([2, 2, 2, 3, 1, 1, 9,8, 2, 2, 2, 3, 1, 1, 2])
+data=np.array([2, 2, 2, 3, 1, 1, 9, 2, 2, 2, 3, 1, 1, 2])
 mean=np.mean(data)
 std=np.std(data)
 threshold=3
-outlier = []
+outlier =[]
 
 print("mean of the dataset = ",mean)
 print("Standard Deviation of the dataset = ",std)
