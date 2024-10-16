@@ -3,6 +3,20 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
+        <entry key="\Cancer Probability\cancer-probabilities.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\Cancer Probability\titanic.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\FallBreak-Over\Details.csv">
           <value>
             <Attribute>
