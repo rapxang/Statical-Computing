@@ -42,3 +42,5 @@ with open('data.csv',mode='r') as f:
 
     for lists in filereader:
         print(lists)
+
+print(df.isna().sum())

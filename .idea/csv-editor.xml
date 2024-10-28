@@ -52,6 +52,27 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\Quiz-3\MYdata.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\Quiz-3\StudentPerformance.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\Quiz-3\personaldetails.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\pandas 2\data.csv">
           <value>
             <Attribute>
