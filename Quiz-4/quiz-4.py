@@ -21,3 +21,5 @@ cleaned_df = df.dropna()
 print(cleaned_df.shape)
 print(cleaned_df.isna().sum())
 # after dropping the missing rows, the cleaned dataframe is brought down to 44804 rows and 17 columns
+
+
