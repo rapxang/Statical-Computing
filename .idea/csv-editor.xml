@@ -3,14 +3,42 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
-        <entry key="\Assignment 3\Assignemnt\Cyber threats\Clickjacking.csv">
+        <entry key="/Assignment 3/Assignemnt/Cyber threats/Cyber bullying.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="\Assignment 3\before cleaning (1).csv">
+        <entry key="/Assignment 3/Assignemnt/Cyber threats/Fake Profile.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/Assignment 3/Assignemnt/Cyber threats/Malware.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/Assignment 3/Assignemnt/Cyber threats/Spam.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/Assignment 3/Assignemnt/Cyber threats/location leakage.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\Assignment 3\Assignemnt\Cyber threats\Clickjacking.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
