@@ -3,7 +3,25 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
+<<<<<<< HEAD
         <entry key="/Assignment 3/Assignemnt/Cyber threats/Spam.csv">
+=======
+        <entry key="\ASSIGNMENT\Cyber threats\Clickjacking.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\Assignment 3\Assignemnt\Cyber threats\Clickjacking.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\Linear Regression\heart.csv">
+>>>>>>> 1a34ae6f4f83b7d470254c036449e22466553f44
           <value>
             <Attribute>
               <option name="separator" value="," />
