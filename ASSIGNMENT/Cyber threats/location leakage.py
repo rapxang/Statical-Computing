@@ -34,9 +34,9 @@ plt.scatter(df['Password Security'], df['Location Leakage'], label='Password Sec
 plt.scatter(df['Enable Security'], df['Location Leakage'], label='Enable Security', color='Green')
 plt.scatter(df['Sharing Location'], df['Location Leakage'], label='CSharing Location', color='Black')
 plt.scatter(df['Accept Unknown'], df['Location Leakage'], label='Accept Unknown', color='Pink')
-plt.scatter(df['Number of Friends'], df['Location Leakage'], label='Number of Friends', color='Orange')
+plt.scatter(df['Number of Friends'], df['Location Leakage'], label='Number of Friends', color='Brown')
 plt.scatter(df['Number of Groups'], df['Location Leakage'], label='Number of Groups', color='Purple')
-plt.scatter(df['Click on Unknown Link'], df['Location Leakage'], label='Click on Unknown Link', color='Brown')
+plt.scatter(df['Click on Unknown Link'], df['Location Leakage'], label='Click on Unknown Link', color='Orange')
 
 
 

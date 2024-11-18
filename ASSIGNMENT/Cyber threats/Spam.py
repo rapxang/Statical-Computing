@@ -33,12 +33,12 @@ import matplotlib.pyplot as plt
 
 
 plt.scatter(df['Password Security'], df['Spam'], label='Password Security', color='red')
-plt.scatter(df['Enable Security'], df['Spam'], label='Enable Security', color='Green')
+plt.scatter(df['Enable Security'], df['Spam'], label='Enable Security', color='Brown')
 plt.scatter(df['Sharing Location'], df['Spam'], label='CSharing Location', color='Black')
 plt.scatter(df['Accept Unknown'], df['Spam'], label='Accept Unknown', color='Pink')
 plt.scatter(df['Number of Friends'], df['Spam'], label='Number of Friends', color='Orange')
 plt.scatter(df['Number of Groups'], df['Spam'], label='Number of Groups', color='Purple')
-plt.scatter(df['Click on Unknown Link'], df['Spam'], label='Click on Unknown Link', color='Brown')
+plt.scatter(df['Click on Unknown Link'], df['Spam'], label='Click on Unknown Link', color='Green')
 
 
 

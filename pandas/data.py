@@ -1,3 +1,6 @@
+from operator import index
+from unittest.mock import inplace
+
 import pandas as pd
 # Read the CSV file
 df = pd.read_csv('data.csv')
@@ -37,3 +40,20 @@ print(dff.head())
 subset_dff = dff[['total_profit', 'Total Units Sold']]
 # Save the subset to a new CSV file
 subset_dff.to_csv('subset_data.csv', index=False)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

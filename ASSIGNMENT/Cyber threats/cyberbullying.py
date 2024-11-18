@@ -31,13 +31,13 @@ import matplotlib.pyplot as plt
 
 # Plot Column1 vs Column2
 plt.scatter(df['Time Spent'], df['Cyber Bullying'], label='Time Spent', color='blue')
-plt.scatter(df['Password Security'], df['Cyber Bullying'], label='Password Security', color='red')
+plt.scatter(df['Password Security'], df['Cyber Bullying'], label='Password Security', color='Brown')
 plt.scatter(df['Enable Security'], df['Cyber Bullying'], label='Enable Security', color='Green')
 plt.scatter(df['Sharing Location'], df['Cyber Bullying'], label='CSharing Location', color='Black')
 plt.scatter(df['Accept Unknown'], df['Cyber Bullying'], label='Accept Unknown', color='Pink')
 plt.scatter(df['Number of Friends'], df['Cyber Bullying'], label='Number of Friends', color='Orange')
 plt.scatter(df['Number of Groups'], df['Cyber Bullying'], label='Number of Groups', color='Purple')
-plt.scatter(df['Click on Unknown Link'], df['Cyber Bullying'], label='Click on Unknown Link', color='Brown')
+plt.scatter(df['Click on Unknown Link'], df['Cyber Bullying'], label='Click on Unknown Link', color='Red')
 
 
 

@@ -19,13 +19,15 @@
 # #     csvwriter.writerows(rows)
 #
 #
-#import csv
+import csv
 
-import pandas as pd
-df= pd.read_csv('personaldetails.csv')
-print(df.head())
-new_data=['Aditya',27,'Male','A']
-df._append(new_data)
-print(df.head())
+# New data to append
+new_rows = [
+    ['XXX', 24, 'Female', 'B']
+]
 
+# Open the file in append mode
+with open('personaldetails.csv', mode='a', newline='') as file:
+    csvwriter = csv.writer(file)
+    csvwriter.writerows(new_rows)  # Append new rows to the file
 
