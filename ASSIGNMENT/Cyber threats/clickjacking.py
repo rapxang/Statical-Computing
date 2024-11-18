@@ -65,9 +65,7 @@ newdf = df [['Clickjacking', 'Time Spent', 'Password Security',
        'Enable Security', 'Sharing Location', 'Accept Unknown',
        'Number of Friends', 'Number of Groups', 'Click on Unknown Link']]
 
-
-correlation_matrix = newdf.corr().round(2)
-
+correlation_matrix = newdf.corr()
 print(correlation_matrix)
 plt.figure(figsize=(10,8))
 mask = np.triu(np.ones_like(correlation_matrix, dtype=bool))

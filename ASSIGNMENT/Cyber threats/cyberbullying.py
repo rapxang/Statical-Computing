@@ -51,3 +51,20 @@ plt.grid(True)
 
 # Display the plot
 plt.show()
+
+
+import numpy as np
+import seaborn as sns
+
+newdf = df [['Cyber Bullying', 'Time Spent', 'Password Security',
+       'Enable Security', 'Sharing Location', 'Accept Unknown',
+       'Number of Friends', 'Number of Groups', 'Click on Unknown Link']]
+
+correlation_matrix = newdf.corr().round(2)
+print(correlation_matrix)
+plt.figure(figsize=(10,8))
+mask = np.triu(np.ones_like(correlation_matrix, dtype=bool))
+sns.heatmap(correlation_matrix, annot=True, cmap='coolwarm', fmt='.2f', linewidths=0.5, vmax=1 , vmin=-1)
+plt.title('Pearson Correlation Matrix')
+# sns.scatterplot(correlation_matrix)
+plt.show()
