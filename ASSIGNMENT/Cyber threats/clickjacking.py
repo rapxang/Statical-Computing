@@ -1,4 +1,6 @@
 import pandas as pd
+import seaborn as sns
+import numpy as np
 df = pd.read_csv("Clickjacking.csv")
 print(df.head())
 
@@ -28,8 +30,9 @@ print("\nThe correlation between Clickjacking and Click on Unknown Link is",corr
 
 
 
-import matplotlib.pyplot as plt
 
+
+import matplotlib.pyplot as plt
 # Plot Column1 vs Column2
 plt.scatter(df['Time Spent'], df['Clickjacking'], label='Time Spent', color='blue')
 
@@ -55,3 +58,21 @@ plt.grid(True)
 
 # Display the plot
 plt.show()
+
+
+
+newdf = df [['Clickjacking', 'Time Spent', 'Password Security',
+       'Enable Security', 'Sharing Location', 'Accept Unknown',
+       'Number of Friends', 'Number of Groups', 'Click on Unknown Link']]
+
+
+correlation_matrix = newdf.corr().round(2)
+
+print(correlation_matrix)
+plt.figure(figsize=(10,8))
+mask = np.triu(np.ones_like(correlation_matrix, dtype=bool))
+sns.heatmap(correlation_matrix, annot=True, cmap='coolwarm', fmt='.2f', linewidths=0.5, vmax=1 , vmin=-1)
+plt.title('Pearson Correlation Matrix')
+# sns.scatterplot(correlation_matrix)
+plt.show()
+

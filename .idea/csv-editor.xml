@@ -10,6 +10,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/Assignment 3/Assignemnt/Cyber threats/Clickjacking.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/Assignment 3/Assignemnt/Cyber threats/Spam.csv">
           <value>
             <Attribute>
