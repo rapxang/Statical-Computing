@@ -31,6 +31,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/FallBreak-Over/titanic.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/Heart Disease/Heart_Disease.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/Practice/heart.csv">
           <value>
             <Attribute>
